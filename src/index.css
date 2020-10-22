@@ -1,0 +1,109 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  background-image:
+  linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0, 0, 0, 0.10)), url(./mobile.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size:1800px auto;
+  background-color: #464646;
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.App{
+  min-height: 100vh;
+  padding:25px;
+  padding-top: 100px;
+}
+.timer{
+  text-align: center;
+}
+span{
+  font-size: 10px;
+}
+.timer .time{
+  position:relative;
+  display:inline-block;
+  margin:30px auto;
+  background-color: rgba(225,225,255,0.4);
+  border-radius: 16px;
+
+  padding:15px 25px;
+
+  font-size:102px;
+  font-weight:900;
+
+  text-shadow: 3px 6px rgba(50, 50,70,0.2);
+  text-align:center;
+  box-shadow: 3px 6px rgba(0,0,0,0.2);
+}
+
+.buttons{
+  text-align: center;
+}
+
+.buttons .start{
+  display: inline-block;
+  margin: 30px 10px;
+  padding: 30px 15px;
+  background-color: rgba(225,225,255,0.4);
+  border-radius: 100%;
+  border:none;
+  outline: none;
+  font-weight: bold;
+  appearance: none;
+  font-size:30px;
+  box-shadow: 3px 6px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+
+
+.buttons .stop{
+  display: inline-block;
+  margin: 30px 10px;
+  padding: 30px 15px;
+  background-color: rgba(225,225,255,0.4);
+  border-radius: 100%;
+  border:none;
+  outline: none;
+  appearance: none;
+  font-size:30px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 3px 6px rgba(0,0,0,0.2);
+}
+
+.buttons .reset{
+  display: inline-block;
+  margin: 30px 10px;
+  padding: 30px 10px;
+  background-color: rgba(225,225,255,0.4);
+  border-radius: 100%;
+  border:none;
+  outline: none;
+  appearance: none;
+  font-weight: bold;
+  font-size:30px;
+  cursor: pointer;
+  box-shadow: 3px 6px rgba(0,0,0,0.2);
+}
+.buttons .resume{
+  display: inline-block;
+  margin: 30px 10px;
+  padding: 33px 4px;
+  background-color: rgba(225,225,255,0.4);
+  border-radius: 100%;
+  border:none;
+  outline: none;
+  appearance: none;
+  font-weight: bold;
+  font-size:25px;
+  cursor: pointer;
+  box-shadow: 3px 6px rgba(0,0,0,0.2);
+}
